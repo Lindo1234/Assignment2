@@ -1,3 +1,9 @@
+/** Applications Development Practice III (ADP372S)
+ * Assignment 2
+ * Author: Lindokuhle Xaki 215041720
+ * Due Date: Sunday, 16th May 2021
+ **/
+
 package za.ac.cput;
 
 import org.junit.jupiter.api.Test;
