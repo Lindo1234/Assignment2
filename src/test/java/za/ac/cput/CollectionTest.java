@@ -20,7 +20,7 @@ class CollectionTest {
       //  System.out.println("Animals remaining \n" + mapping + "\n");
         assertEquals("[Cat, Elephant, Python]", mapping.keySet().toString());
 
-        //Find if the Collection contains 200
+        //Find if the Collection contains 20
 
         assertTrue(mapping.containsValue("20"));
     }
@@ -74,6 +74,9 @@ class CollectionTest {
 
     @Test
     void map() {
+
+        //Add
+
         TreeMap<Integer, String> map = new TreeMap();
         map.put(100, "Dog");
         map.put(200, "Snake");
@@ -87,7 +90,7 @@ class CollectionTest {
        // System.out.println("Map remaining \n" + map + "\n");
         assertEquals("[200, 300]", map.keySet().toString());
 
-        //Find if the map contains 200
+        //Find if the map contains 200 , Snake
 
         assertTrue(map.containsValue("Snake"));
 
