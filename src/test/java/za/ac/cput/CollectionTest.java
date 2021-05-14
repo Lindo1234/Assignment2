@@ -23,7 +23,7 @@ class CollectionTest {
         mapping.put("Elephant", "14");
 
         mapping.remove("Dog");
-      //  System.out.println("Animals remaining \n" + mapping + "\n");
+        System.out.println("Animals remaining \n" + mapping + "\n");
         assertEquals("[Cat, Elephant, Python]", mapping.keySet().toString());
 
         //Find if the Collection contains 20
@@ -45,7 +45,7 @@ class CollectionTest {
 
         //Removing Snake from the list
         animals.remove("Snake");
-     //   System.out.println("Animals remaining \n" + animals + "\n");
+        System.out.println("Animals remaining \n" + animals + "\n");
         assertEquals("[Butterfly, Frog, Cow]", animals.toString());
 
         //Find if the list contains an element Cow
@@ -67,7 +67,7 @@ class CollectionTest {
 
         //Remove
         numbers.remove(15);
-        //  System.out.println("Numbers remaining \n" + numbers + "\n");
+         System.out.println("Numbers remaining \n" + numbers + "\n");
         assertEquals("[5, 10]", numbers.toString());
 
         //Find if the set contains 5
@@ -93,7 +93,7 @@ class CollectionTest {
         //Remove element
 
         map.remove(100, "Dog");
-       // System.out.println("Map remaining \n" + map + "\n");
+        System.out.println("Map remaining \n" + map + "\n");
         assertEquals("[200, 300]", map.keySet().toString());
 
         //Find if the map contains 200 , Snake

@@ -47,8 +47,7 @@ public class Collection {
         //Removing an element
         animals.remove("Frog");
         System.out.println("List of animals" + animals + "\n");
-      //  while(iterator.hasNext()){
-         //   System.out.println(iterator.next());
+
         }
 
     //Set
@@ -61,13 +60,11 @@ public class Collection {
 
 
         Iterator<Integer> iterator = numbers.iterator();
-        System.out.println("\nSet of numbers\n=========================");
+        System.out.println("\nSet of numbers\n");
         numbers.remove(5);
         System.out.println("New set of numbers " + numbers);
 
-        //    while(iterator.hasNext()){
-        //        System.out.println(iterator.next());
-        //   }
+
 
         //Map
     }
